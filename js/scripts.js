@@ -14,11 +14,7 @@ $(function () {
     }
   });
 
-  $('#reserveButton').on('click', function () {
-    $('#reserveModal').modal();
-  });
+  $('#reserveButton').on('click', () => $('#reserveModal').modal());
 
-  $('#loginButton').on('click', function () {
-    $('#loginModal').modal();
-  });
+  $('#loginButton').on('click', () => $('#loginModal').modal());
 });
